@@ -1,0 +1,38 @@
+{
+  "name": "m6-d10-benchmark_amazon-api_mongodb-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config -e js ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonatanski/m6-d10-benchmark_amazon-api_mongodb-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonatanski/m6-d10-benchmark_amazon-api_mongodb-express/issues"
+  },
+  "homepage": "https://github.com/yonatanski/m6-d10-benchmark_amazon-api_mongodb-express#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cloudinary": "^1.28.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-list-endpoints": "^6.0.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.2.1",
+    "multer": "^1.4.4",
+    "multer-storage-cloudinary": "^4.0.0",
+    "query-to-mongo": "^0.10.1"
+  }
+}
